@@ -30,7 +30,7 @@ const RecetasProvider = (props) => {
         }
 
        
-    },[busqueda])
+    },[busqueda, categoria, consultar, nombre])
 
     return ( 
         <RecetasContext.Provider
